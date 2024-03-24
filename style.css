@@ -1,0 +1,43 @@
+/* Body */
+body {
+  font-family: 'Comic Sans MS', cursive;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+/* Container */
+.container {
+  text-align: center;
+}
+
+/* Input Field */
+input[type='number'] {
+  padding: 10px;
+  margin: 10px;
+  border: 2px solid #ff6f61; /* Coral color */
+  border-radius: 10px; /* Rounded corners */
+  font-size: 18px; /* Larger font size */
+  color: #333;
+}
+
+/* Button */
+button {
+  padding: 10px 20px;
+  background-color: #ff6f61; /* Coral color */
+  color: #fff;
+  border: none;
+  cursor: pointer;
+  border-radius: 10px; /* Rounded corners */
+  font-size: 18px; /* Larger font size */
+}
+
+/* Grade Text */
+#grade {
+  font-size: 24px; /* Larger font size */
+  margin-top: 20px;
+  color: #333;
+}
